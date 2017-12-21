@@ -1,0 +1,12 @@
+Git most used commands to save local changes
+
+git status
+to see if there are local changes 
+
+git add -A|[fileName]
+to add all the files/especific file, they are to push local
+
+git commit -m 'message to show what's done'
+push local the change local with a message to identify it.
+
+Finally PUSH it to the remote repository. 
