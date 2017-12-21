@@ -1,0 +1,13 @@
+Get all changes from origin remote repository:
+
+git fetch [origin] 
+get all changes in the current repository
+
+Put the local changes to remote reposotory
+
+git push [origin] [master]
+Push all local changes to the remote repository from the local 
+branche in this case (master) to the remote branche (origin)
+
+
+
