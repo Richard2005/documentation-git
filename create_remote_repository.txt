@@ -1,0 +1,31 @@
+To make a new repository there are two ways to do it.
+1. Using https 
+2. Using ssh
+
+1. Using https:
+It's the easy and fast way to create a remote repository, just sign in with the gitHub, gitLab or any browser client with it 
+will work, choose the option create a new Repository finish these, choose the option https, copy the url for example "https://github.com/Richard2005/test-https.git" 
+Open the console, select where the directory where you want work and write the command:
+git clone https://github.com/Richard2005/test-https.git 
+
+2. Using ssh
+First please you can try these comand
+ssh -T git@github.com
+These verify if you have acces to the git server, the expected response could be:
+Hi Richard2005! You've successfully authenticated, but GitHub does not provide shell access.
+If these not appers maybe you have to generate a ssh-key
+-generate the ssh key and 
+-put the key in your profile from your browser tool (gitHub, gitLab, BitBucket...)
+
+-generate the ssh key:
+ssh-keygen -t rsa -b 4096 -C "richyde2005@gmail.com" -f/d/keyner
+It will generate a key, that start with something like these 'ssh-rsa' in your directory c:/Users/'your user name'/.ssh
+ssh-add ~/.ssh/id_rsa
+
+Maybe optional
+git config --global user.email "yourEmail@gmail.com"
+
+finally you have to get from the ssh-key c:/Users/'your user name'/.ssh  and put in your 
+profile for example in gitHub you have to go to your profile -> settings -> ssh and GPG keys
+then there select 'New SSH key' and add the key there.
+
