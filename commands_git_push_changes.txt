@@ -1,7 +1,7 @@
 Get all changes from origin remote repository:
 
-git fetch [origin] 
-get all changes in the current repository
+git pull [origin] 
+get all changes in the current repository and merge these changes into local repository
 
 Put the local changes to remote reposotory
 
