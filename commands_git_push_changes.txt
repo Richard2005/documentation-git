@@ -1,9 +1,9 @@
 Get all changes from origin remote repository:
 
 git pull [origin] 
-get all changes in the current repository and merge these changes into local repository
+get all changes in the current repository and merge these changes into local repository.
 
-Put the local changes to remote reposotory
+Put the local changes to remote reposotory.
 
 git push [origin] [master]
 Push all local changes to the remote repository from the local 
