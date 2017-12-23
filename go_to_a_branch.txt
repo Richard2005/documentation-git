@@ -1,3 +1,6 @@
 Change to other branch
 
 git checkout [branchName]
+
+//this is a test to made changes from other branch to push to the same repositori from the branch test
+
