@@ -1,13 +1,10 @@
 Change to other branch
 
 git checkout [branchName]
-//edit master branch documentation to solve the conflict
+
 List all branchs there are available
 
 git branch -l
 
 To see the remote branchs, we need first made a checkout from the branch. 
-
-
-//this is a test to made changes from other branch to push to the same repositori from the branch test
 
