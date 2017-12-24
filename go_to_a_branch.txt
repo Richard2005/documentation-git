@@ -1,3 +1,10 @@
 Change to other branch
 
 git checkout [branchName]
+
+List all branchs there are available
+
+git branch -l
+
+To see the remote branchs, we need first made a checkout from the branch. 
+
