@@ -8,6 +8,3 @@ git branch -l
 
 To see the remote branchs, we need first made a checkout from the branch. 
 
-
-//this is a test to made changes from other branch to push to the same repositori from the branch test
-
