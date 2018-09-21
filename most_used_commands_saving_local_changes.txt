@@ -13,3 +13,10 @@ PUSH it to the remote repository.
 
 List the branchs, there are enable
 git branch 
+
+Go to a branch
+git checkout [branchName]
+
+List all branchs there are available
+git branch -l
+To see the remote branchs, we need first made a checkout from the branch. 
